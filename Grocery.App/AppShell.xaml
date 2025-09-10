@@ -8,7 +8,7 @@
     Title="GroceryApp">
 
     <TabBar>
-        <Tab Title="Home" Icon="grocerylist.png">
+        <Tab Title="Boodschappenlijsten" Icon="grocerylist.png">
             <ShellContent Title="Boodschappenlijsten" ContentTemplate="{DataTemplate local:GroceryListsView}" />
         </Tab>
         <Tab Title="Producten" Icon="products.png">
