@@ -9,10 +9,11 @@ on:
   pull_request:
     branches:
       - main
+      - dev
  
 jobs:
   test:
-    runs-on: windows-latest  # Of windows-latest/macOS-latest/ubuntu-latest als specifiek platform nodig is (ubuntu-latest is de standaard)
+    runs-on: windows-latest 
     steps:
       - name: Haal de repository op
         uses: actions/checkout@v4
